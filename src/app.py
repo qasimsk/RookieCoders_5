@@ -159,7 +159,7 @@ def search():
             mystring = "Relevance"
             query = the_text
 
-            # Cleaning of query---
+            # Cleaning of query
             tokenized_query, old_query, new_query = clean_query(query.lower())
 
             # Creating object for Search class with Data of "search_file_relevance.pkl"
