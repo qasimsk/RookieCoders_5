@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # Document Finder <img src=https://user-images.githubusercontent.com/82633814/219828376-ae4aa92f-4431-4af2-bab5-1ccb6aa58847.gif height="50px" width="50px">
 
 <br>
@@ -51,4 +48,3 @@ Provide an efficient way of searching for content within a single or a set of do
 
 
 
->>>>>>> 23a425e11d91dc366ed511c104c814bbaf7873a4

@@ -38,6 +38,9 @@
     <!-- front_body starts -->
         <div class="front_body" id="front_body">
             <div class="navbar_holder">
+                <div>
+                    <img style="height: 50px; width: 50px; margin: 5px 5px; border-radius: 5px;" src="{{ url_for('static', filename='logo.gif') }}">
+                </div>
                 <nav class="navbar">
                     <ul class="navbar_list">
                         <li><a href="#front_body" class="scroll" id="home_nav">Home</a></li>
@@ -50,9 +53,6 @@
             <div class="front_banner_holder"> 
                 
             <div class="space_bet_ban_name_logo"></div>
-                <div class="logo_name">
-                   
-                </div>
                 <div class="banner_name">    
                     <div class="name_top">
                         DOCUMENT FINDER
@@ -106,12 +106,13 @@
     <div class="search_body">
 
         <div class="steps_img_container">
-            
+            <img  src="{{ url_for('static', filename='logo.gif') }}">
         </div>
 
 
         <div class="search_bar_outer">
             <div class="search_bar_holder">
+                
                 <form action="/search" target="_blank" method="POST" class="search_form">
 
                     <input type="text" name="search_bar" class="search_bar" id="search_bar" placeholder="Enter something to search...">
